@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "bucklebuck" {
-  bucket = "my-tf-massiveprince-bucket11"
-  acl    = "private"
+  bucket = "dodokadodo2212039209"
+  acl    = "public"
 
   tags = {
-    Name        = "rav1i-day1a-santhos1h-deepak1231"
+    Name        = "Firstbucket"
     Environment = "Dev"
   }
 }
